@@ -422,6 +422,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfec9ad319c2c7e409369c84283c0b93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  <Bullet>k__BackingField: {fileID: 0}
+  <ShootPoint>k__BackingField: {fileID: 0}
 --- !u!4 &154043688 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 443456, guid: 0cc53454d87ad45c3bafdbf11b7d3b32, type: 3}
@@ -3428,6 +3430,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   atkRange: 0
   player: {fileID: 0}
+  <Bullet>k__BackingField: {fileID: 0}
+  <ShootPoint>k__BackingField: {fileID: 0}
 --- !u!4 &1760124832 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 443456, guid: 0cc53454d87ad45c3bafdbf11b7d3b32, type: 3}
@@ -3521,6 +3525,18 @@ PrefabInstance:
     - target: {fileID: 448308, guid: c07db661138134f589f46b8510d57c9a, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3651417288719513165, guid: c07db661138134f589f46b8510d57c9a, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+    - target: {fileID: 8350862988109508140, guid: c07db661138134f589f46b8510d57c9a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8350862988109508140, guid: c07db661138134f589f46b8510d57c9a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.37
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5023672, guid: c07db661138134f589f46b8510d57c9a, type: 3}
@@ -3691,6 +3707,18 @@ PrefabInstance:
     - target: {fileID: 11440140, guid: 6dde6029886a24408b05eced6b5964a6, type: 3}
       propertyPath: whatIsGround.m_Bits
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2477732616926645938, guid: 6dde6029886a24408b05eced6b5964a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8493061144752523072, guid: 6dde6029886a24408b05eced6b5964a6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 8493061144752523072, guid: 6dde6029886a24408b05eced6b5964a6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.19
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11440140, guid: 6dde6029886a24408b05eced6b5964a6, type: 3}
